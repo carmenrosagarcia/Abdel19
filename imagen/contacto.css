@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+8,fefefe+97 */
+background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 8%,rgba(254,254,254,1) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+header {
+    background-color: #000000;
+    padding: 5px ;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 6px;
+    margin: 6px;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin:  50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.image img {
+    width: 800px;
+    height: 400px;
+}
+
+
+.form-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product-section {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item {
+    margin: 0 10px;
+}
+
+.product-item img {
+    width: 100px;
+    height: auto;
+}
+
+.pie{
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.timg{
+    width:  100px;
+    height: 50px;
+    margin-top: 40px;
+}
